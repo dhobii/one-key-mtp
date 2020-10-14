@@ -1,15 +1,19 @@
 # ONE-KEY-MTP
 
 安装mtproxy及其守护进程请运行：
+
 wget --no-check-certificate -O mtproxy.sh https://raw.githubusercontent.com/chummumm/one-key-mtp/master/mtproxy.sh && bash mtproxy.sh
 
 删除mtproxy及其守护进程请运行：
+
 wget --no-check-certificate -O deletemtproxy.sh https://raw.githubusercontent.com/chummumm/one-key-mtp/master/deletemtproxy.sh && bash deletemtproxy.sh
 
 仅需注册守护进程请运行：
+
 wget --no-check-certificate -O mtproxy-daemon.sh https://raw.githubusercontent.com/chummumm/one-key-mtp/master/mtproxy-daemon.sh && bash mtproxy-daemon.sh
 
 仅需删除守护进程请运行：
+
 wget --no-check-certificate -O deletemtproxy-daemon.sh https://raw.githubusercontent.com/chummumm/one-key-mtp/master/deletemtproxy-daemon.sh && bash deletemtproxy-daemon.sh
 
 后续查看配置信息可使用 cat /etc/mtproxy/secret
